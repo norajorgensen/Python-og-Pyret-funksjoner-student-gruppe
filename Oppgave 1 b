@@ -30,3 +30,8 @@ gruppe2 = lag_gruppe("gruppe2")
 legge_til_student(gruppe1, student1)
 legge_til_student(gruppe2, student2)
 legge_til_student(gruppe1, student3)
+grupper = [gruppe1, gruppe2]
+
+# Tester funksjon
+resultat = finn_gruppe(student1, grupper)
+print(f"{student1[0]} tilhører {resultat}")
